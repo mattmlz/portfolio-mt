@@ -1,3 +1,5 @@
+$semibolditalic: 'CooperHewittSemiboldItalic';
+
 body {
   background: #F1F1F1;
 }
@@ -19,7 +21,7 @@ body {
     align-items: right;
     margin-top: 35px;
     p {
-      font-family: 'CooperHewittSemiboldItalic';
+      font-family: $semibolditalic;
       font-size: 25px;
       margin: 0 20px;
     }
