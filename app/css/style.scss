@@ -1,4 +1,7 @@
 $semibolditalic: 'CooperHewittSemiboldItalic';
+$bold: 'CooperHewittBold';
+$medium : 'CooperHewittMedium';
+$light : 'CooperHewittLight';
  
 body {
   background: #F1F1F1;
@@ -21,8 +24,33 @@ body {
     align-items: right;
     p {
       font-family: $semibolditalic;
-      font-size: 25px;
+      font-size: 40px;
       margin: 0 20px;
+    }
+  }
+}
+
+.container {
+  .informations {
+    margin-left: 15vw;
+    margin-top: 15vh;
+    font-size: 30px;
+    .name {
+      font-family: $bold;
+      margin: 5px;
+    }
+    .school {
+      font-family: $medium;
+      margin: 5px;
+    }
+  }
+  .skills {
+    font-family: $light;
+    font-size: 25px;
+    margin-left: 20vw;
+    margin-top: 2vh;
+    p {
+      margin: 5px;
     }
   }
 }

@@ -30,7 +30,25 @@ body {
             align-items: right; }
     .homeHeader .links p {
       font-family: "CooperHewittSemiboldItalic";
-      font-size: 25px;
+      font-size: 40px;
       margin: 0 20px; }
+
+.container .informations {
+  margin-left: 15vw;
+  margin-top: 15vh;
+  font-size: 30px; }
+  .container .informations .name {
+    font-family: "CooperHewittBold";
+    margin: 5px; }
+  .container .informations .school {
+    font-family: "CooperHewittMedium";
+    margin: 5px; }
+.container .skills {
+  font-family: "CooperHewittLight";
+  font-size: 25px;
+  margin-left: 20vw;
+  margin-top: 2vh; }
+  .container .skills p {
+    margin: 5px; }
 
 /*# sourceMappingURL=style.css.map */
