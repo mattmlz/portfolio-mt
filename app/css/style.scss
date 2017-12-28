@@ -1,25 +1,24 @@
 $semibolditalic: 'CooperHewittSemiboldItalic';
-
+ 
 body {
   background: #F1F1F1;
 }
-
+ 
 .homeHeader {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   width: 100vw;
   .logoHeader {
-    float: left;
     width: 5%;
     height: 5%;
-    margin: 10px;
+    margin: 20px;
   }
   .links {
-    float: right;
     display: flex;
     flex-direction: row;
     align-items: right;
-    margin-top: 35px;
     p {
       font-family: $semibolditalic;
       font-size: 25px;
