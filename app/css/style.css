@@ -1,3 +1,31 @@
 body {
-  background: #010101;
-}
+  background: #F1F1F1; }
+
+.homeHeader {
+  display: inline-block;
+  margin: auto;
+  width: 100vw; }
+  .homeHeader .logoHeader {
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin: 10px; }
+  .homeHeader .links {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    margin-top: 35px; }
+    .homeHeader .links p {
+      font-family: "CooperHewittSemiboldItalic";
+      font-size: 25px;
+      margin: 0 20px; }
+
+/*# sourceMappingURL=style.css.map */
