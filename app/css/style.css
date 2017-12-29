@@ -1,8 +1,11 @@
+/********** 
+* GENERAL * 
+**********/
 body {
   background: #F1F1F1;
   overflow: hidden; }
 
-.homeHeader {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,11 +17,11 @@ body {
           justify-content: center;
   margin: auto;
   width: 100vw; }
-  .homeHeader .logoHeader {
+  .header .logoHeader {
     width: 5%;
     height: 5%;
     margin: 20px; }
-  .homeHeader .links {
+  .header .links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -29,11 +32,28 @@ body {
     -webkit-box-align: right;
         -ms-flex-align: right;
             align-items: right; }
-    .homeHeader .links p {
-      font-family: "CooperHewittSemiboldItalic";
-      font-size: 40px;
-      margin: 0 20px; }
+    .header .links a {
+      text-decoration: none;
+      color: #000000; }
+      .header .links a p {
+        font-family: "CooperHewittSemiboldItalic";
+        font-size: 40px;
+        margin: 0 20px; }
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center; }
+  .footer p {
+    font-family: "CooperHewittLight";
+    font-size: 15px; }
+
+/***********
+* HOMEPAGE * 
+***********/
 .container .informations {
   margin-left: 15vw;
   margin-top: 15vh;
@@ -51,16 +71,5 @@ body {
   margin-top: 2vh; }
   .container .skills p {
     margin: 5px; }
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center; }
-  .footer p {
-    font-family: "CooperHewittLight";
-    font-size: 15px; }
 
 /*# sourceMappingURL=style.css.map */
