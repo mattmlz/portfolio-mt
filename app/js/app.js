@@ -2,9 +2,7 @@
 const $logo = document.querySelector('.logoHeader')
 
 
-/********** 
-* GENERAL * 
-**********/
+/* GENERAL */
 //back to homepage with click on header logo
 $logo.addEventListener('click', () => {
   document.location.href='../index.html'

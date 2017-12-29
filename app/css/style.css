@@ -1,6 +1,4 @@
-/********** 
-* GENERAL * 
-**********/
+/* GENERAL */
 body {
   background: #F1F1F1;
   overflow: hidden; }
@@ -53,9 +51,7 @@ body {
     font-family: "CooperHewittLight";
     font-size: 15px; }
 
-/***********
-* HOMEPAGE * 
-***********/
+/* HOMEPAGE */
 .container .informations {
   margin-left: 15vw;
   margin-top: 15vh;
@@ -73,5 +69,3 @@ body {
   margin-top: 2vh; }
   .container .skills p {
     margin: 5px; }
-
-/*# sourceMappingURL=style.css.map */
