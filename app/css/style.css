@@ -21,6 +21,8 @@ body {
     width: 5%;
     height: 5%;
     margin: 20px; }
+  .header .logoHeader:hover {
+    cursor: pointer; }
   .header .links {
     display: -webkit-box;
     display: -ms-flexbox;

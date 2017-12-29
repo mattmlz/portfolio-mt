@@ -22,6 +22,9 @@ body {
     height: 5%;
     margin: 20px;
   }
+  .logoHeader:hover {
+    cursor: pointer;
+  }
   .links {
     display: flex;
     flex-direction: row;
