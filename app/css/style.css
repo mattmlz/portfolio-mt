@@ -98,5 +98,22 @@ body {
     .content .description p {
       margin-top: 20px;
       margin-bottom: 20px; }
-  .content .links a img {
-    margin: 20px; }
+  .content .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .content .links .text p {
+      font-family: "CooperHewittMedium";
+      font-size: 20px; }
+    .content .links .icons a img {
+      margin: 10px 20px; }
