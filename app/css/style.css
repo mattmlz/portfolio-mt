@@ -98,3 +98,5 @@ body {
     .content .description p {
       margin-top: 20px;
       margin-bottom: 20px; }
+  .content .links a img {
+    margin: 20px; }
