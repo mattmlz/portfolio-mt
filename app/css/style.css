@@ -69,3 +69,32 @@ body {
   margin-top: 2vh; }
   .container .skills p {
     margin: 5px; }
+
+/* ABOUT PAGE */
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2vw;
+  font-family: "CooperHewittMedium";
+  font-size: 25px;
+  line-height: 1.2; }
+  .content .headline {
+    margin: 20px; }
+  .content .description {
+    margin: 20px 10vw;
+    font-family: "CooperHewittLight";
+    font-size: 20px; }
+    .content .description p {
+      margin-top: 20px;
+      margin-bottom: 20px; }

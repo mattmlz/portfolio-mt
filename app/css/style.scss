@@ -78,3 +78,28 @@ body {
     }
   }
 }
+
+/* ABOUT PAGE */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vw;
+  font-family: $medium;
+  font-size: 25px;
+  line-height: 1.2;
+  .headline {
+    margin: 20px;
+  }
+  .description {
+    margin: 20px 10vw;
+    font-family: $light;
+    font-size: 20px;
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
