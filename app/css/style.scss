@@ -2,13 +2,14 @@ $semibolditalic: 'CooperHewittSemiboldItalic';
 $bold: 'CooperHewittBold';
 $medium : 'CooperHewittMedium';
 $light : 'CooperHewittLight';
- 
+
+/* GENERAL */
 body {
   background: #F1F1F1;
   overflow: hidden;
 }
- 
-.homeHeader {
+
+.header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,17 +20,39 @@ body {
     height: 5%;
     margin: 20px;
   }
+  .logoHeader:hover {
+    cursor: pointer;
+  }
   .links {
     display: flex;
     flex-direction: row;
     align-items: right;
-    p {
-      font-family: $semibolditalic;
-      font-size: 40px;
-      margin: 0 20px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      p {
+        font-family: $semibolditalic;
+        font-size: 40px;
+        margin: 0 20px;
+      }
     }
   }
 }
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  p {
+    font-family: $light;
+    font-size: 15px;
+  }
+}
+
+/* HOMEPAGE */
 
 .container {
   .informations {
@@ -56,15 +79,46 @@ body {
   }
 }
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  text-align: center;
-  p {
+/* ABOUT PAGE */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vw;
+  font-family: $medium;
+  font-size: 25px;
+  line-height: 1.2;
+  .headline {
+    margin: 20px;
+  }
+  .description {
+    margin: 20px 10vw;
     font-family: $light;
-    font-size: 15px;
+    font-size: 20px;
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .text {
+      p {
+        font-family: $medium;
+        font-size: 20px;
+      }
+    }
+    .icons {
+      a {
+        img {
+          margin: 10px 20px;
+        }
+      }
+    }
   }
 }
