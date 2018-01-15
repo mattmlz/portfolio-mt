@@ -1,4 +1,5 @@
 $semibolditalic: 'CooperHewittSemiboldItalic';
+$book: 'CooperHewittBook';
 $bold: 'CooperHewittBold';
 $medium : 'CooperHewittMedium';
 $light : 'CooperHewittLight';
@@ -31,7 +32,7 @@ body {
       text-decoration: none;
       color: #000000;
       p {
-        font-family: $semibolditalic;
+        font-family: $book;
         font-size: 40px;
         margin: 0 20px;
       }
@@ -122,3 +123,5 @@ body {
     }
   }
 }
+
+/* WORK PAGE */
