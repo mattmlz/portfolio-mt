@@ -1,4 +1,5 @@
 $semibolditalic: 'CooperHewittSemiboldItalic';
+$book: 'CooperHewittBook';
 $bold: 'CooperHewittBold';
 $medium : 'CooperHewittMedium';
 $light : 'CooperHewittLight';
@@ -31,7 +32,7 @@ body {
       text-decoration: none;
       color: #000000;
       p {
-        font-family: $semibolditalic;
+        font-family: $book;
         font-size: 40px;
         margin: 0 20px;
       }
@@ -81,7 +82,7 @@ body {
 
 /* ABOUT PAGE */
 
-.content {
+.content.aboutPage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,6 +120,34 @@ body {
           margin: 10px 20px;
         }
       }
+    }
+  }
+}
+
+/* WORK PAGE */
+
+.content.workPage {
+  overflow: hidden;
+  .workSections {
+    display: flex;
+    flex-direction: row;
+    .sectionDev {
+      width: 50vw;
+      height: 100vh;
+      background-image: url('../pictures/dev-picture.jpg');
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: 30% 50%;
+      opacity: 0.5;
+    }
+    .sectionDesign {
+      width: 50vw;
+      height: 100vh;
+      background-image: url('../pictures/design-picture.jpg');
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-position: 71% 30%;
+      opacity: 0.5;
     }
   }
 }
