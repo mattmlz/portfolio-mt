@@ -82,7 +82,7 @@ body {
 
 /* ABOUT PAGE */
 
-.content {
+.content.aboutPage {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,3 +125,25 @@ body {
 }
 
 /* WORK PAGE */
+
+.content.workPage {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  .sectionDev {
+    width: 50vw;
+    height: 100vh;
+    background-image: url('../pictures/dev-picture.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+  }
+  .sectionDesign {
+    width: 50vw;
+    height: 100vh;
+    background-image: url('../pictures/design-picture.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 71% 30%;
+  }
+}
