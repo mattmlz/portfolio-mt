@@ -145,3 +145,21 @@ body {
       background-repeat: no-repeat;
       background-position: 71% 30%;
       opacity: 0.5; }
+
+/* WORK > DEV */
+.worksContainer {
+  width: 100%;
+  vertical-align: middle; }
+  .worksContainer section {
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: table; }
+    .worksContainer section div {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+    .worksContainer section div.player {
+      background: blue; }
+    .worksContainer section div.spacex {
+      background: red; }
