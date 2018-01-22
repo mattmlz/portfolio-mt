@@ -14,7 +14,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: auto;
-  width: 100vw; }
+  width: 100vw;
+  z-index: 100; }
   .header .logoHeader {
     width: 5%;
     height: 5%;
@@ -149,7 +150,9 @@ body {
 /* WORK > DEV */
 .worksContainer {
   width: 100%;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: #F1F1F1;
+  z-index: 1; }
   .worksContainer section {
     background-size: cover;
     height: 100vh;
@@ -163,8 +166,34 @@ body {
       width: 100vw;
       height: 100vh;
       background-image: url("../pictures/mockup-player.png");
-      background-size: 100%;
-      background-repeat: no-repeat; }
+      background-size: 150%;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      position: relative; }
+      .worksContainer section div.player .title {
+        width: 300px;
+        font-family: "CooperHewittBold";
+        font-size: 35px;
+        position: absolute;
+        top: 25vh;
+        left: 2vw;
+        opacity: 0.5;
+        -webkit-transition: opacity 0.5s;
+        transition: opacity 0.5s;
+        will-change: opacity; }
+        .worksContainer section div.player .title a {
+          text-decoration: none;
+          color: #F1F1F1; }
+      .worksContainer section div.player .title:hover {
+        opacity: 1; }
+      .worksContainer section div.player .description {
+        width: 300px;
+        font-family: "CooperHewittBook";
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        top: 30vh;
+        left: 2vw; }
     .worksContainer section div.spacex {
       width: 100vw;
       height: 100vh; }
