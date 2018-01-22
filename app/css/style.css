@@ -161,7 +161,10 @@ body {
       text-align: center; }
     .worksContainer section div.player {
       width: 100vw;
-      height: 100vh; }
+      height: 100vh;
+      background-image: url("../pictures/mockup-player.png");
+      background-size: 100%;
+      background-repeat: no-repeat; }
     .worksContainer section div.spacex {
       width: 100vw;
       height: 100vh; }
