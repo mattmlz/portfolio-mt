@@ -160,6 +160,8 @@ body {
       vertical-align: middle;
       text-align: center; }
     .worksContainer section div.player {
-      background: blue; }
+      width: 100vw;
+      height: 100vh; }
     .worksContainer section div.spacex {
-      background: red; }
+      width: 100vw;
+      height: 100vh; }
