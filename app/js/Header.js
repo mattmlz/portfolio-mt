@@ -9,7 +9,7 @@ class Header {
 
     //back to homepage with click on header logo
     $logo.addEventListener('click', () => {
-      document.location.href='../index.html'
+      document.location.href='../../index.html'
     })
   }
 }
