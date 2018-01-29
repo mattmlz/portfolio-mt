@@ -168,7 +168,7 @@ body {
       background-image: url("../pictures/mockup-player.png");
       background-size: 150%;
       background-repeat: no-repeat;
-      background-position: 50% 50%;
+      background-position: 50% 40%;
       position: relative; }
       .worksContainer section div.player .title {
         width: 300px;
@@ -197,10 +197,10 @@ body {
     .worksContainer section div.spacex {
       width: 100vw;
       height: 100vh;
-      /* background-image: url('../pictures/mockup-player.png'); */
+      background-image: url("../pictures/mockup-spacex.png");
       background-size: 150%;
       background-repeat: no-repeat;
-      background-position: 50% 50%;
+      background-position: 0% 60%;
       position: relative; }
       .worksContainer section div.spacex .title {
         width: 300px;
