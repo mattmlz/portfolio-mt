@@ -1,11 +1,13 @@
-class LazyLoading {
+class LazyLoadingWork {
   constructor() {
     this.lazyLoadWork()
   }
 
   lazyLoadWork() {
+    //Put nodeList in a 'real' array
     const $lazyLoad = [].slice.call(document.querySelectorAll('.lazy-load'))
-      
+    
+    //Wait the load of the page to show the divs
     window.addEventListener('load', (event) => {
       for(let i = 0; i < $lazyLoad.length; i++) {
         const $div = $lazyLoad[i]
@@ -13,6 +15,8 @@ class LazyLoading {
       }
       workHover()
     })
+
+    //Hover on the 2 divs
     const workHover = () => {
       const $sections = document.querySelector('.workSections')
       const $dev = $sections.querySelector('.sectionDev')
