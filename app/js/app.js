@@ -1,2 +1,5 @@
 const header = new Header()
-const hover = new Hover()
+
+if(document.location.href.match('work.html')){
+  const hover = new Hover()
+}
