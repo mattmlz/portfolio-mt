@@ -54,6 +54,7 @@ body {
   }
 }
 
+
 /* HOMEPAGE */
 
 .container {
@@ -169,7 +170,6 @@ body {
       background-size: auto;
       background-repeat: no-repeat;
       background-position: 30% 50%;
-      opacity: 0.5;
     }
     .sectionDesign {
       width: 50vw;
@@ -178,6 +178,13 @@ body {
       background-size: auto;
       background-repeat: no-repeat;
       background-position: 71% 30%;
+    }
+    .lazy-load {
+      opacity: 0;
+      transition: opacity 0.5s;
+      will-change: opacity;
+    }
+    .lazy-load.loaded {
       opacity: 0.5;
     }
   }
