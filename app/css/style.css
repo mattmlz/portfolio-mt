@@ -70,6 +70,15 @@ body {
   margin-top: 2vh; }
   .container .skills p {
     margin: 5px; }
+.container .internship {
+  width: 100vw;
+  height: 20vh;
+  padding: 30px; }
+  .container .internship p {
+    width: calc(100vw - 100px);
+    margin: 15px;
+    font-family: "CooperHewittBook";
+    font-size: 20px; }
 .container .links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,8 +92,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 20px; }
+          flex-direction: column; }
   .container .links .text p {
     font-family: "CooperHewittMedium";
     font-size: 20px; }

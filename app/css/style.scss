@@ -79,12 +79,22 @@ body {
       margin: 5px;
     }
   }
+  .internship {
+    width: 100vw;
+    height: 20vh;
+    padding: 30px;
+    p {
+      width: calc(100vw - 100px);
+      margin: 15px;
+      font-family: $book;
+      font-size: 20px;
+    }
+  }
   .links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
     .text {
       p {
         font-family: $medium;
