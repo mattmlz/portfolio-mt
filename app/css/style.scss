@@ -79,6 +79,25 @@ body {
       margin: 5px;
     }
   }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    .text {
+      p {
+        font-family: $medium;
+        font-size: 20px;
+      }
+    }
+    .icons {
+      margin: 10px;
+      a {
+        margin: 10px;
+      }
+    }
+  }
 }
 
 /* ABOUT PAGE */
