@@ -193,12 +193,12 @@ body {
 /* WORK > DEV */
 
 .worksContainer {
-  .lazy-load {
+  section.lazy-load {
     opacity: 0;
-    transition: opacity 0.7s;
+    transition: opacity 1s;
     will-change: opacity;
   }
-  .lazy-load.loaded {
+  section.lazy-load.loaded {
     opacity: 1;
   }
   width: 100%;

@@ -189,12 +189,12 @@ body {
   vertical-align: middle;
   color: #F1F1F1;
   z-index: 1; }
-  .worksContainer .lazy-load {
+  .worksContainer section.lazy-load {
     opacity: 0;
-    -webkit-transition: opacity 0.7s;
-    transition: opacity 0.7s;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
     will-change: opacity; }
-  .worksContainer .lazy-load.loaded {
+  .worksContainer section.lazy-load.loaded {
     opacity: 1; }
   .worksContainer section {
     background-size: cover;
