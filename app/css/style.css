@@ -53,54 +53,86 @@ body {
     font-size: 15px; }
 
 /* HOMEPAGE */
-.container .informations {
-  margin-left: 15vw;
-  margin-top: 15vh;
-  font-size: 30px; }
-  .container .informations .name {
-    font-family: "CooperHewittBold";
-    margin: 5px; }
-  .container .informations .school {
-    font-family: "CooperHewittMedium";
-    margin: 5px; }
-.container .skills {
-  font-family: "CooperHewittLight";
-  font-size: 25px;
-  margin-left: 20vw;
-  margin-top: 2vh; }
-  .container .skills p {
-    margin: 5px; }
-.container .internship {
-  width: 100vw;
-  height: 20vh;
-  padding: 30px; }
-  .container .internship p {
-    width: calc(100vw - 100px);
-    margin: 15px;
-    font-family: "CooperHewittBook";
-    font-size: 20px;
-    line-height: 1.3; }
-.container .links {
+.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .container .links .text p {
-    font-family: "CooperHewittMedium";
-    font-size: 20px; }
-  .container .links .icons {
-    margin: 10px; }
-    .container .links .icons a {
+          align-items: center; }
+  .container .informations {
+    margin-left: -25vw;
+    margin-top: 15vh;
+    font-size: 30px; }
+    .container .informations .name {
+      font-family: "CooperHewittBold";
+      margin: 5px; }
+    .container .informations .school {
+      font-family: "CooperHewittMedium";
+      margin: 5px; }
+  .container .skills {
+    font-family: "CooperHewittLight";
+    font-size: 25px;
+    margin-left: -10vw;
+    margin-top: 2vh; }
+    .container .skills p {
+      margin: 5px; }
+  .container .internship {
+    width: 90vw;
+    height: 25vh;
+    margin: 2vh 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px;
+    border: 1px solid #010101;
+    overflow: hidden; }
+    .container .internship p {
+      width: calc(90vw - 100px);
+      margin: 15px;
+      font-family: "CooperHewittBook";
+      font-size: 20px;
+      line-height: 1.3;
+      text-align: center; }
+  .container .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 10px; }
+    .container .links .text p {
+      font-family: "CooperHewittMedium";
+      font-size: 20px; }
+    .container .links .icons {
       margin: 10px; }
+      .container .links .icons a {
+        margin: 10px; }
 
 /* ABOUT PAGE */
 .content.aboutPage {

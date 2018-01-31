@@ -58,8 +58,13 @@ body {
 /* HOMEPAGE */
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   .informations {
-    margin-left: 15vw;
+    margin-left: -25vw;
     margin-top: 15vh;
     font-size: 30px;
     .name {
@@ -71,32 +76,44 @@ body {
       margin: 5px;
     }
   }
+
   .skills {
     font-family: $light;
     font-size: 25px;
-    margin-left: 20vw;
+    margin-left: -10vw;
     margin-top: 2vh;
     p {
       margin: 5px;
     }
   }
+
   .internship {
-    width: 100vw;
-    height: 20vh;
+    width: 90vw;
+    height: 25vh;
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
+    border: 1px solid #010101;
+    overflow: hidden;
     p {
-      width: calc(100vw - 100px);
+      width: calc(90vw - 100px);
       margin: 15px;
       font-family: $book;
       font-size: 20px;
       line-height: 1.3;
+      text-align: center;
     }
   }
+
   .links {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 10px;
     .text {
       p {
         font-family: $medium;
