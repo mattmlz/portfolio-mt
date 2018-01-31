@@ -69,7 +69,7 @@ body {
           align-items: center; }
   .container .informations {
     margin-left: -25vw;
-    margin-top: 15vh;
+    margin-top: 5vh;
     font-size: 30px; }
     .container .informations .name {
       font-family: "CooperHewittBold";
@@ -87,7 +87,7 @@ body {
   .container .internship {
     width: 90vw;
     height: 25vh;
-    margin: 2vh 0;
+    margin: 5vh 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -102,7 +102,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     padding: 30px;
-    border: 1px solid #010101;
+    border: 2px solid #010101;
     overflow: hidden; }
     .container .internship p {
       width: calc(90vw - 100px);
