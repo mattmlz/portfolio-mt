@@ -1229,22 +1229,22 @@ body {
   overflow: hidden;
   .workSections {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     .sectionDev {
-      width: 50vw;
-      height: 100vh;
+      width: 100vw;
+      height: 39vh;
       background-image: url('../pictures/dev-picture.jpg');
-      background-size: auto;
+      background-size: 100%;
       background-repeat: no-repeat;
       background-position: 30% 50%;
     }
     .sectionDesign {
-      width: 50vw;
-      height: 100vh;
+      width: 100vw;
+      height: 39vh;
       background-image: url('../pictures/design-picture.jpg');
-      background-size: auto;
+      background-size: 100%;
       background-repeat: no-repeat;
-      background-position: 71% 30%;
+      background-position: 60% 30%;
     }
     .lazy-load {
       opacity: 0;
