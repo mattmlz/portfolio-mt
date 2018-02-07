@@ -322,6 +322,12 @@ body {
     margin: 20px 10vw;
     font-family: "CooperHewittLight";
     font-size: 20px; }
+    .content.aboutPage .description img.profilePicture {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 15%;
+      border-radius: 50%; }
     .content.aboutPage .description p {
       margin-top: 20px;
       margin-bottom: 20px; }
