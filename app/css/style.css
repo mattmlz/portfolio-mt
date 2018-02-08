@@ -330,8 +330,9 @@
         width: 15%;
         border-radius: 50%; }
       .content.aboutPage .description p {
-        margin-top: 20px;
-        margin-bottom: 20px; }
+        width: 50vw;
+        text-align: center;
+        margin: 20px auto; }
     .content.aboutPage .links {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -805,6 +806,7 @@
         width: 15%;
         border-radius: 50%; }
       .content.aboutPage .description p {
+        text-align: center;
         margin-top: 20px;
         margin-bottom: 20px; }
     .content.aboutPage .links {
@@ -1283,6 +1285,7 @@
         width: 45%;
         border-radius: 50%; }
       .content.aboutPage .description p {
+        text-align: center;
         margin-top: 20px;
         margin-bottom: 20px; }
     .content.aboutPage .links {
