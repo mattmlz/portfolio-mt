@@ -10,7 +10,7 @@ You can follow [this link](http://matthieutoussaint.fr) !
 1. To code:
     - [Visual Studio Code](https://code.visualstudio.com/) as IDE
     - [KOALA](http://koala-app.com/) to compile SASS
-    - [browserSync for Gulp](https://www.npmjs.com/package/browser-sync)to work in local
+    - [browserSync for Gulp](https://www.npmjs.com/package/browser-sync) to work in local
 
 2. To deploy:
     - A gulpfile with a lot of tasks to build, concat and minify
