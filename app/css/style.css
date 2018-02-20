@@ -1,8 +1,7 @@
 @media screen and (min-width: 1080px) {
   /* GENERAL */
   body {
-    background: #F1F1F1;
-    overflow: hidden; }
+    background: #F1F1F1; }
 
   .header {
     display: -webkit-box;
