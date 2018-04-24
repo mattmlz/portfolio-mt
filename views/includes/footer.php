@@ -3,7 +3,6 @@
     <div class="container center">© 2018 MATTHIEU TOUSSAINT</div>
 </footer>
 
-  <script src="assets/js/app.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90047916-3"></script>
   <script>
