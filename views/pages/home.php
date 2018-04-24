@@ -4,10 +4,16 @@
 
 <div class="container home-informations">
   <div class="row">
-    <div class="col s6"><img src="/assets/pictures/profile-picture.png" alt="profile picture"></div>
-    <div class="col s6">Matthieu TOUSSAINT</div>
+    <div class="col s6 picture center">
+			<img class="responsive-img" src="/assets/pictures/profile-picture-round.png" alt="profile picture">
+    </div>
+    <div class="col s6 left">
+      <p class="title">Matthieu TOUSSAINT</p>
+      <p class="title">2nd year student @ HETIC</p>
+      <p class="skills">Web developer</p>
+      <p class="skills">Freelance consultant since 2 years</p>
+    </div>
   </div>
-  <div class="row">Web student @ HETIC</div>
 </div>
 
 <?php 

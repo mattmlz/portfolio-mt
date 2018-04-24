@@ -93,3 +93,28 @@ footer.page-footer {
   background: #4b7bec; }
   footer.page-footer .container.center {
     font-family: 'CooperHewittThin'; }
+
+.container.home-informations {
+  margin-top: 25px;
+  font-family: 'CooperHewittMedium';
+  font-size: 20px; }
+  .container.home-informations .row .col.s6.picture .photo_container {
+    overflow: hidden;
+    background: #FBFBFB;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0; }
+    .container.home-informations .row .col.s6.picture .photo_container img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      width: 200px;
+      height: 200px; }
+  .container.home-informations .row .col.s6 p.title {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .container.home-informations .row .col.s6 p.skills {
+    font-family: 'CooperHewittBook';
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
