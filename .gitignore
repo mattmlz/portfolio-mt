@@ -66,11 +66,7 @@ Temporary Items
 
 # Folders #
 ###########
-/dist
-/node_modules
-gulpfile.js
-package-lock.json
-package.json
+.htaccess
 
 # VisualStudioCode #
 ####################
