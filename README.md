@@ -19,6 +19,7 @@ You can follow [this link](http://matthieutoussaint.fr) !
     - HTML5
     - SCSS
     - ES6 Javascript
+    - PHP
     
 ##### Want contact ?
 Ask me on [Twitter](http://twitter.com/matthieu__tou) or add me to your [LinkedIn network](https://www.linkedin.com/in/matthieu-toussaint/).
