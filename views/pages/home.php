@@ -14,6 +14,15 @@
       <p class="skills">Freelance consultant since 2 years</p>
     </div>
   </div>
+
+  <div class="row learn-more">
+    <div class="col s12 center"><h5>Learn more:</h5></div>
+    <div class="col s12 center links">
+      <a href="https://twitter.com/matthieu__tou"><img src="/assets/pictures/icons/twitter.png" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/in/matthieu-toussaint/"><img src="/assets/pictures/icons/linkedin.png" alt="LinkedIn"></a>
+      <a href="http://github.com/mattmlz"><img src="/assets/pictures/icons/github.png" alt="GitHub"></a>
+    </div>
+  </div>
 </div>
 
 <?php 

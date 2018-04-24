@@ -118,3 +118,5 @@ footer.page-footer {
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 5px; }
+  .container.home-informations .row.learn-more .col.s12.center.links a {
+    margin: 0 10px; }
